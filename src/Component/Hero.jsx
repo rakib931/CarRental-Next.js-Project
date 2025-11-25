@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 export default function Hero() {
   return (
@@ -14,7 +15,10 @@ export default function Hero() {
             <br /> goals with many extraordinary
           </p>
           <div className="flex gap-5">
-            <button className="btn btn-outline no-outline bg-[#ff4c32] text-white">
+            <button
+              
+              className="btn btn-outline no-outline bg-[#ff4c32] text-white"
+            >
               Book Ride{" "}
             </button>
             <button className="btn bg-black text-white">Learn More</button>
@@ -25,7 +29,7 @@ export default function Hero() {
             width={500}
             height={350}
             className="my-5"
-            src="https://i.ibb.co/LDd2PH1N/polo-png.webp"
+            src="https://i.ibb.co.com/LDd2PH1N/polo-png.webp"
             alt=""
           />
         </div>

@@ -10,7 +10,7 @@ export default function TripPlan() {
         <div>
           <Image
           className="mx-auto"
-            src="https://i.ibb.co/TqmjmZdZ/iconbox-image-01.png"
+            src="https://i.ibb.co.com/TqmjmZdZ/iconbox-image-01.png"
             alt="logo"
             width={100}
             height={50}
@@ -25,7 +25,7 @@ export default function TripPlan() {
         <div>
           <Image
           className="mx-auto rounded-full"
-            src="https://i.ibb.co/j9VKZn9P/download.png"
+            src="https://i.ibb.co.com/j9VKZn9P/download.png"
             alt="logo"
             width={100}
             height={50}
@@ -39,7 +39,7 @@ export default function TripPlan() {
         <div>
           <Image
           className="mx-auto rounded-full"
-            src="https://i.ibb.co/RkrQQm0N/download.jpg"
+            src="https://i.ibb.co.com/RkrQQm0N/download.jpg"
             alt="logo"
             width={100}
             height={50}

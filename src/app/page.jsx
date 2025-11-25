@@ -5,7 +5,7 @@ import AboutCompany from "@/Component/AboutCompany";
 import AirPortRide from "@/Component/AirPortRide";
 export default function Home() {
   return (
-    <div className="bg-white px-2">
+    <div className="bg-white">
       <Hero />
       <TripPlan />
       <RentalFleet />

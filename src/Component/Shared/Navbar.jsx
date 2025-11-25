@@ -5,8 +5,9 @@ import Link from "next/link";
 export default function Navbar() {
   const links = <div className="flex gap-3">
     <Link className="font-bold text-gray-500" href={'/'}>Home</Link>
-    <Link className="font-bold text-gray-500" href={'/about'}>About</Link>
-    <Link className="font-bold text-gray-500" href={'/vehicals'}>Vehicle Model</Link>
+    <Link className="font-bold text-gray-500" href={'/addVehical'}>Add Your Vehical</Link>
+    <Link className="font-bold text-gray-500" href={'/vehicals'}>All Vehicles</Link>
+    <Link className="font-bold text-gray-500" href={'/dashboard'}>Dashboard</Link>
     <Link className="font-bold text-gray-500" href={'/booking'}>Your Booking</Link>
   </div>
   return (
@@ -39,7 +40,7 @@ export default function Navbar() {
         </div>
         <div className="w-35">
           <Image
-            src="https://i.ibb.co/qYgvRzZ8/logo-v4.png"
+            src="https://i.ibb.co.com/qYgvRzZ8/logo-v4.png"
             alt="logo"
             width={100}
             height={50}
@@ -52,7 +53,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbar-end flex gap-2">
-         <Link href={'/sign-in'} className="font-bold text-gray-500">Sign In</Link>
+         <Link href={'/auth/login'} className="font-bold text-gray-500">Sign In</Link>
          <Link href={'/register'} className="btn btn-outline no-outline bg-[#ff4c32] text-white py-3 px-5">Register</Link>
       </div>
     </div>

@@ -12,7 +12,7 @@ export default function Home() {
 
       <Image
         className="mx-auto"
-        src="https://i.ibb.co/RTGtJ9cF/Screenshot-2025-10-27-183146.png"
+        src="https://i.ibb.co.com/RTGtJ9cF/Screenshot-2025-10-27-183146.png"
         alt="logo"
         width={900}
         height={400}

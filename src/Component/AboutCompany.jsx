@@ -6,7 +6,7 @@ export default function AboutCompany() {
       <div>
         <Image
           className="mx-auto"
-          src="https://i.ibb.co/pBTHVCtB/Screenshot-2025-11-24-145007.png"
+          src="https://i.ibb.co.com/pBTHVCtB/Screenshot-2025-11-24-145007.png"
           alt="logo"
           width={900}
           height={400}
@@ -28,7 +28,7 @@ export default function AboutCompany() {
           <div className="text-center">
             <Image
               className="mx-auto"
-              src="https://i.ibb.co/QhkxLMt/images.jpg"
+              src="https://i.ibb.co.com/QhkxLMt/images.jpg"
               alt="logo"
               width={100}
               height={50}
@@ -39,7 +39,7 @@ export default function AboutCompany() {
           <div className="text-center">
             <Image
               className="mx-auto"
-              src="https://i.ibb.co/XfnBWwJp/car-dealership-advance.png"
+              src="https://i.ibb.co.com/XfnBWwJp/car-dealership-advance.png"
               alt="logo"
               width={100}
               height={50}
@@ -52,7 +52,7 @@ export default function AboutCompany() {
           <div className="text-center">
             <Image
               className="mx-auto"
-              src="https://i.ibb.co/gbk3J2GG/images.png"
+              src="https://i.ibb.co.com/gbk3J2GG/images.png"
               alt="logo"
               width={100}
               height={50}
